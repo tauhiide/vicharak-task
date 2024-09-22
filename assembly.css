@@ -1,0 +1,10 @@
+/* Assignment a = b+10 */
+LOAD R1,b  ; Load value of b in register R1
+ADD R1,10  ; Add 10 tothe  value in r1
+STORE a,R1 ; Store result 
+/*Compare a and b*/
+LOAD R1, a  ; load value of a in R1
+LOAD R2, b  ; load value of b in R2
+CMP  R1,R2  ; compare a and b
+JE LABEL_TRUE ; Jump tothe LABLE_TRUE if a == b
+LABEL_TRUE : LOAD R3, 1; Load 1 in R3
