@@ -1,4 +1,4 @@
-# recruit-vicharak
+# vicharak-recruit
 
 Lexer : converts SimpleLang source code into tokens.
 Parser : Build an abstarct Syntax Tree (AST) from the tokens
